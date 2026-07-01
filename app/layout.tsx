@@ -16,24 +16,24 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://alfaz.dev"),
   title: {
-    default: "Mohammad Alfaz | Full-Stack Engineer and AI Builder",
+    default: "Mohammad Alfaz | Full-Stack and AI-Focused Software Engineer",
     template: "%s | Mohammad Alfaz",
   },
   description:
-    "Portfolio of Mohammad Alfaz, a full-stack engineer, AI builder, and 4x hackathon award winner pursuing software engineering and data science internships.",
+    "Portfolio of Mohammad Alfaz, a full-stack and AI-focused software engineering student building web applications, REST APIs, AI integrations, and graph-based systems.",
   keywords: [
     "Mohammad Alfaz",
     "Full Stack Developer",
-    "AI Builder",
+    "AI Engineering Intern",
     "Software Engineering Intern",
-    "Data Science Intern",
+    "REST API Developer",
     "Next.js Portfolio",
   ],
   authors: [{ name: "Mohammad Alfaz" }],
   openGraph: {
-    title: "Mohammad Alfaz | Full-Stack Engineer and AI Builder",
+    title: "Mohammad Alfaz | Full-Stack and AI-Focused Software Engineer",
     description:
-      "AI-powered products, full-stack systems, and hackathon-winning execution.",
+      "Full-stack web applications, AI integrations, REST APIs, and hackathon-winning execution.",
     type: "website",
     images: ["/images/Profile.png"],
   },

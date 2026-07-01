@@ -7,7 +7,7 @@ import { ArrowDown, ArrowRight, Download, Mail, Sparkles } from "lucide-react";
 import { profile, socialLinks, stats } from "@/constants/portfolio";
 import { Button } from "@/components/ui/Button";
 
-const words = ["Full-Stack Engineer", "AI Builder", "Hackathon Winner", "Data-Minded Developer"];
+const words = ["Full-Stack Developer", "AI Engineering Intern", "Hackathon Winner", "Graph Algorithm Builder"];
 
 export default function Hero() {
   return (
@@ -33,7 +33,7 @@ export default function Hero() {
           <h1 className="mt-5 max-w-5xl text-5xl font-black leading-[0.95] tracking-tight text-white sm:text-7xl lg:text-8xl">
             Mohammad Alfaz
             <span className="block bg-gradient-to-r from-cyan-200 via-white to-violet-300 bg-clip-text text-transparent">
-              ships intelligent web products.
+              builds AI-ready software.
             </span>
           </h1>
 
@@ -97,7 +97,7 @@ export default function Hero() {
               <div className="absolute bottom-4 left-4 right-4 rounded-xl border border-white/10 bg-slate-950/70 p-4 backdrop-blur-xl">
                 <p className="text-sm font-semibold text-white">Currently focused on</p>
                 <p className="mt-1 text-sm leading-6 text-slate-300">
-                  AI-assisted student platforms, graph-based optimization, and recruiter-ready product demos.
+                  Full-stack web apps, REST APIs, AI integrations, and graph-based route optimization.
                 </p>
               </div>
             </div>
@@ -109,7 +109,7 @@ export default function Hero() {
           </div>
           <div className="absolute -right-6 top-1/2 hidden max-w-[150px] rounded-xl border border-white/10 bg-white/[0.06] px-4 py-3 backdrop-blur-xl sm:block lg:-right-10">
             <p className="text-2xl font-bold text-white">AI</p>
-            <p className="text-xs uppercase tracking-[0.22em] text-violet-200">Product builder</p>
+            <p className="text-xs uppercase tracking-[0.22em] text-violet-200">Engineering focus</p>
           </div>
         </motion.div>
       </div>

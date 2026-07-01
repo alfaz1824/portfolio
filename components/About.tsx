@@ -8,14 +8,14 @@ export function About() {
     <Section
       id="about"
       eyebrow="About"
-      title="A builder shaped by hackathons, fundamentals, and useful AI."
+      title="A full-stack and AI-focused engineer building practical products."
       description={profile.summary}
     >
       <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
         <Reveal className="rounded-2xl border border-white/10 bg-white/[0.04] p-6 backdrop-blur-xl sm:p-8">
           <h3 className="text-2xl font-semibold text-white">Current focus</h3>
           <p className="mt-5 text-base leading-8 text-slate-400">
-            Alfaz is building toward software engineering and data science internships by pairing core CS skills with shipped projects. His work sits at the intersection of AI-assisted learning, practical full-stack systems, and data-backed problem solving.
+            Alfaz is seeking Software Engineering and AI Engineering internships by pairing core CS fundamentals with shipped full-stack projects. His work spans academic platforms, REST API design, AI integrations, relational databases, and graph-based optimization.
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
             {strengths.map((item) => (

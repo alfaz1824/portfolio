@@ -7,8 +7,8 @@ export function Achievements() {
     <Section
       id="achievements"
       eyebrow="Achievements"
-      title="Four awards that prove speed, clarity, and product judgment."
-      description="The awards are not just badges. They show a repeated ability to scope, build, present, and win in constrained environments."
+      title="Four awards across national hackathons and web competitions."
+      description="These achievements show repeated ability to scope, build, present, and win in constrained environments."
     >
       <div className="grid gap-4 md:grid-cols-2">
         {achievements.map((item, index) => (

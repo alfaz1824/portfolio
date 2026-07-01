@@ -4,7 +4,6 @@ import {
   BriefcaseBusiness,
   Code2,
   Database,
-  GraduationCap,
   GitBranch,
   Layers3,
   Mail,
@@ -20,18 +19,18 @@ import {
 export const profile = {
   name: "Mohammad Alfaz",
   nickname: "Alfu",
-  role: "Full-Stack Engineer and AI Builder",
-  location: "Bangalore, India",
-  email: "alfazafraz24@gmail.com",
+  role: "Full-Stack and AI-Focused Software Engineering Student",
+  location: "Bengaluru, India",
+  email: "alfazfarz24@gmail.com",
   phone: "+91 8867301768",
   github: "https://github.com/alfaz1824",
   linkedin: "https://linkedin.com/in/alfaz1824",
   resume: "/resume.pdf",
-  availability: "Open to Software Engineering and Data Science internships",
+  availability: "Seeking Software Engineering and AI Engineering internships",
   headline:
-    "I build AI-powered products, data-rich systems, and full-stack experiences that move from idea to shipped prototype fast.",
+    "I build production-minded web applications, REST APIs, AI integrations, and graph-based systems across frontend, backend, and database layers.",
   summary:
-    "Third-year Information Science Engineering student at HKBKCE with hands-on work across full-stack development, data analysis, and ML/AI tooling. I have won four hackathon awards across 2024-2026, including national-level recognitions and a Best Project cash prize, by turning ambiguous problems into working products under pressure.",
+    "Software Engineering student specializing in full-stack and AI-focused development with hands-on work in Python, Java, React, Next.js, TypeScript, FastAPI, Express.js, PostgreSQL, and Supabase. Alfaz has shipped end-to-end projects independently, built REST APIs, modeled relational data, integrated LLM workflows, and won four hackathon awards by turning real-world problems into working products.",
 };
 
 export const navLinks = [
@@ -45,38 +44,38 @@ export const navLinks = [
 
 export const stats = [
   { value: "4x", label: "Hackathon award winner" },
-  { value: "2", label: "National-level recognitions" },
-  { value: "2027", label: "B.E. ISE expected graduation" },
-  { value: "7.8", label: "Current CGPA" },
+  { value: "4", label: "Featured engineering projects" },
+  { value: "2", label: "Internship tracks completed" },
+  { value: "VTU", label: "Information Science Engineering" },
 ];
 
 export const strengths = [
   {
     icon: BrainCircuit,
-    title: "AI-First Product Thinking",
+    title: "AI Product Engineering",
     description:
-      "Comfortable combining LLM APIs, prompt engineering, and practical workflows into useful student and business tools.",
+      "Integrates LLM APIs, prompt engineering, and backend logic into practical user-facing tools.",
   },
   {
     icon: Workflow,
-    title: "Algorithmic Problem Solving",
+    title: "Graph-Based Problem Solving",
     description:
-      "Applies graph algorithms, weighted routing, and data structures to solve real optimization problems.",
+      "Applies DSA, Dijkstra-style pathfinding, OSMnx, and NetworkX to real optimization problems.",
   },
   {
     icon: Layers3,
-    title: "End-to-End Delivery",
+    title: "Full-Stack Delivery",
     description:
-      "Builds responsive interfaces, integrates APIs, designs data models, and ships under tight deadlines.",
+      "Builds responsive UIs, REST APIs, relational schemas, authentication flows, and deployable product slices.",
   },
 ];
 
 export const education = [
   {
     degree: "B.E. in Information Science Engineering",
-    school: "HKBK College of Engineering, Bangalore",
+    school: "Visvesvaraya Technological University (VTU)",
     period: "2023 - 2027",
-    detail: "CGPA: 7.8 / 10",
+    detail: "Bachelor of Engineering in Information Science & Engineering",
   },
   {
     degree: "PCMC Pre-University",
@@ -90,7 +89,7 @@ export const skillGroups = [
   {
     title: "Languages",
     icon: Code2,
-    skills: ["Python", "Java", "C", "C++", "JavaScript", "HTML", "CSS"],
+    skills: ["Java", "Python", "JavaScript", "TypeScript", "SQL", "C"],
   },
   {
     title: "Frontend",
@@ -100,27 +99,27 @@ export const skillGroups = [
   {
     title: "Backend",
     icon: Server,
-    skills: ["Node.js", "REST APIs", "Socket Programming", "Exception Handling"],
+    skills: ["Node.js", "Express.js", "FastAPI", "REST API Design", "Postman"],
   },
   {
     title: "AI",
     icon: BrainCircuit,
-    skills: ["Generative AI", "Prompt Engineering", "LLM APIs", "ML Tooling"],
+    skills: ["Generative AI", "LLM API Integration", "Prompt Engineering", "AI Workflows"],
   },
   {
     title: "Database",
     icon: Database,
-    skills: ["MySQL", "Supabase", "PostgreSQL", "DBMS"],
+    skills: ["PostgreSQL", "Supabase", "MySQL", "MongoDB", "DBMS"],
   },
   {
-    title: "Data & BI",
+    title: "Data & Graphs",
     icon: TerminalSquare,
-    skills: ["Power BI", "Tableau", "MS Excel", "Pandas"],
+    skills: ["NetworkX", "OSMnx", "Pandas", "NumPy", "Power BI"],
   },
   {
     title: "DevOps & Tools",
     icon: GitBranch,
-    skills: ["Git", "GitHub", "JUnit", "Unit Testing"],
+    skills: ["Git", "GitHub", "VS Code", "Vercel", "Docker Basics", "Linux"],
   },
   {
     title: "Core Strengths",
@@ -131,23 +130,27 @@ export const skillGroups = [
 
 export const experiences = [
   {
-    title: "Full Stack Web Development",
-    company: "Prodigy Infotech",
-    period: "2026",
-    icon: BriefcaseBusiness,
-    bullets: [
-      "Building production-minded web experiences across frontend and backend workflows.",
-      "Strengthening practical delivery habits around responsive UI, API integration, and clean code.",
-    ],
-  },
-  {
     title: "Java Development Intern",
-    company: "ShadowFox",
+    company: "Shadow Fox",
     period: "2024",
     icon: BriefcaseBusiness,
     bullets: [
-      "Applied Java fundamentals, OOP, exception handling, and testing practices in internship tasks.",
-      "Deepened foundation in backend reasoning, structured programming, and maintainable implementation.",
+      "Built a Bank Account Management System in core Java with account creation, balance tracking, deposits, and withdrawals.",
+      "Designed a modular com.bank.core package structure to separate business logic from application entry points and improve maintainability.",
+      "Developed an interactive quiz application with JavaScript, HTML, and CSS, including dynamic rendering, real-time scoring, and instant UI updates.",
+      "Strengthened Java fundamentals across OOP, exception handling, and collections while translating requirements into working code independently.",
+    ],
+  },
+  {
+    title: "Full Stack Web Development Intern",
+    company: "Prodigy InfoTech",
+    period: "2024",
+    icon: BriefcaseBusiness,
+    bullets: [
+      "Completed a four-project full-stack development track with independently built and deployed responsive web applications.",
+      "Engineered cross-browser UI components from scratch using semantic HTML, CSS best practices, and modern frontend tooling.",
+      "Implemented client-side interactivity with vanilla JavaScript, including DOM manipulation, event handling, and form validation.",
+      "Managed delivery through Git and GitHub across four repositories with clean milestone-based version control.",
     ],
   },
   {
@@ -156,8 +159,8 @@ export const experiences = [
     period: "2024 - 2026",
     icon: Trophy,
     bullets: [
-      "Led fast product discovery, technical execution, and demo storytelling across award-winning builds.",
-      "Converted open-ended problem statements into working prototypes with clear user value.",
+      "Won awards across national-level hackathons, web development competitions, and 24-hour build challenges.",
+      "Converted open-ended problem statements into working prototypes across AI, navigation, academic tooling, and web platforms.",
     ],
   },
 ];
@@ -167,49 +170,101 @@ export const projects = [
     title: "VTU Buddy",
     subtitle: "AI-powered academic platform for VTU students",
     image: "/images/Profile.png",
+    repo: "https://github.com/alfaz1824/vtu-buddy",
     stack: ["Next.js", "React", "TypeScript", "Supabase", "PostgreSQL"],
     overview:
-      "A student platform that turns academic chaos into a searchable, AI-assisted resource hub.",
+      "An academic platform for VTU engineering students that centralizes previous-year papers, study materials, authentication, and AI-assisted resource discovery.",
     problem:
-      "VTU students often jump between scattered study materials, previous-year papers, and disconnected tools while preparing for exams.",
+      "Students often prepare from scattered academic resources, making previous-year papers and semester-wise materials slow to discover.",
     solution:
-      "Centralized materials, question papers, AI assistance, and resource management behind a responsive web interface backed by Supabase.",
+      "Structured a scalable Next.js App Router codebase with Supabase Auth, resource metadata, and dynamic content retrieval.",
     architecture:
-      "Next.js frontend with typed React components, Supabase APIs for storage and retrieval, and PostgreSQL as the structured data layer.",
+      "Next.js and TypeScript frontend with reusable React components, Supabase APIs, PostgreSQL relational tables, and secure session management.",
     features: [
-      "AI study assistance",
-      "Previous-year question paper access",
-      "Secure resource management",
-      "Responsive student-first UI",
+      "Supabase authentication",
+      "Previous-year paper library",
+      "Semester-wise study materials",
+      "Responsive React UI",
     ],
     challenges:
-      "Balancing a clean student experience with reliable resource organization and backend integration.",
+      "Designing a data model that can organize academic resources cleanly while staying fast and easy for students to browse.",
     lessons:
-      "Great academic tools need trust, speed, and simple retrieval more than visual complexity.",
+      "Useful academic software depends on reliable data structure, clear navigation, and quick retrieval more than visual complexity.",
   },
   {
-    title: "Energy-Aware EV Route Optimizer",
+    title: "EV Route Optimiser",
     subtitle: "Slope-aware routing for energy-efficient electric vehicle trips",
     image: "/globe.svg",
+    repo: "https://github.com/alfaz1824/ev_optimiser",
     stack: ["Python", "OSMnx", "NetworkX", "Graph Algorithms", "Folium"],
     overview:
-      "A routing engine that evaluates real roads and elevation-aware energy models instead of optimizing only for distance.",
+      "A Python route optimization engine that models real roads as weighted graphs and recommends EV routes with energy-aware pathfinding.",
     problem:
-      "Shortest paths are not always energy-efficient for EVs, especially when elevation changes affect consumption.",
+      "Shortest routes are not always the most efficient for EVs when road structure and estimated energy consumption are considered.",
     solution:
-      "Built weighted graph routing with elevation APIs and custom energy-consumption models to recommend smarter routes.",
+      "Implemented Dijkstra-based routing over OSMnx and NetworkX graphs, balancing travel distance against estimated energy use.",
     architecture:
-      "OSMnx road network extraction, NetworkX graph processing, weighted shortest-path algorithms, and Folium map visualization.",
+      "OSMnx extracts road networks, NetworkX processes weighted graph paths, and a local cache stores processed map data for repeated queries.",
     features: [
       "Real-world road network analysis",
-      "Slope-aware energy modeling",
-      "Weighted route optimization",
-      "Interactive map output",
+      "Energy-aware pathfinding",
+      "Dijkstra-based routing",
+      "Local graph caching",
     ],
     challenges:
-      "Designing meaningful edge weights that reflect both route geometry and energy behavior.",
+      "Creating route weights that capture practical EV energy behavior without making the system too slow for repeated use.",
     lessons:
-      "Applied graph theory becomes powerful when the weight function models the real world honestly.",
+      "Graph algorithms become much more useful when the edge weights reflect the real-world outcome being optimized.",
+  },
+  {
+    title: "JeevaSetu AI",
+    subtitle: "Full-stack AI platform with a decoupled client-server architecture",
+    image: "/window.svg",
+    repo: "https://github.com/alfaz1824/JeevaSetu-AI",
+    stack: ["JavaScript", "Node.js", "Express.js", "REST APIs", "AI Integration"],
+    overview:
+      "A full-stack AI-powered platform that separates frontend interaction from backend AI processing for cleaner development and future scaling.",
+    problem:
+      "AI features can become difficult to maintain when frontend flows, API routing, and backend processing logic are tightly coupled.",
+    solution:
+      "Separated the JavaScript client from an Express.js backend and exposed RESTful endpoints for context-aware AI responses.",
+    architecture:
+      "Client and server modules communicate through REST APIs, with backend routes managing AI processing logic independently from the UI.",
+    features: [
+      "Decoupled client-server codebase",
+      "Express REST endpoints",
+      "AI response routing",
+      "Scalable module structure",
+    ],
+    challenges:
+      "Designing the backend boundary so AI processing stays independent while still feeling immediate in the frontend.",
+    lessons:
+      "A clean API boundary makes AI-powered products easier to test, deploy, and evolve.",
+  },
+  {
+    title: "NirbhayaPath",
+    subtitle: "AI-driven safety navigation platform for real-time route decisions",
+    image: "/globe.svg",
+    repo: "https://github.com/alfaz1824/NirbhayaPath",
+    stack: ["React", "Vite", "Node.js", "Mapping APIs", "Route Logic"],
+    overview:
+      "A safety navigation platform designed to help users identify safer routes in real time through interactive mapping and risk-aware routing concepts.",
+    problem:
+      "Traditional route tools optimize for speed or distance, but safety-focused travel needs route context and risk signals.",
+    solution:
+      "Built a React and Vite frontend with a dedicated saferoute-server backend for route computation and safety-related logic.",
+    architecture:
+      "A Vite client handles the interactive map experience while a Node.js backend service manages route computation separately.",
+    features: [
+      "Interactive mapping",
+      "Dedicated saferoute server",
+      "Risk-aware route concepts",
+      "Fast Vite frontend",
+    ],
+    challenges:
+      "Separating route computation from the UI while keeping the navigation experience understandable and responsive.",
+    lessons:
+      "Navigation tools need more than pathfinding; they need context that matches the user's actual decision criteria.",
   },
 ];
 
@@ -220,7 +275,7 @@ export const achievements = [
     event: "National Level Hackathon, KNSIT",
     year: "2026",
     detail:
-      "Secured 2nd place by delivering a functional prototype under strict time constraints.",
+      "Secured runner-up position at Tech Takshak, a national-level tech fest organized by KNSIT.",
   },
   {
     icon: Award,
@@ -228,15 +283,15 @@ export const achievements = [
     event: "Full Stack Face-Off",
     year: "2026",
     detail:
-      "Won Best Project with a full-stack application judged on code quality, UI/UX, and feasibility; awarded Rs. 5,000.",
+      "Won Best Project and a Rs. 5,000 cash prize in the Full Stack Face Off web development competition conducted by HKBKCE.",
   },
   {
     icon: Sparkles,
     title: "Future Innovation Excellence Award",
-    event: "National Level Hackathon",
+    event: "Aavishkar Pravah 2.0",
     year: "2026",
     detail:
-      "Recognized for forward-thinking design and scalable technical implementation.",
+      "Recognized at a national-level hackathon organized by Brainovisions in collaboration with HKBKCE.",
   },
   {
     icon: Users,

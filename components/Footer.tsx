@@ -8,7 +8,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col gap-8 md:flex-row md:items-center md:justify-between">
         <div>
           <Link href="#home" className="text-xl font-semibold text-white">
-            Mohammad Alfaz<span className="text-cyan-300">.</span>
+            Mohammad Alfaz<span className="text-cyan-300"></span>
           </Link>
           <p className="mt-2 flex items-center gap-2 text-sm text-slate-500">
             <Code2 className="size-4" />

@@ -13,7 +13,7 @@ export function Contact() {
       id="contact"
       eyebrow="Contact"
       title="Recruiters, collaborators, and builders can reach Alfaz here."
-      description="Open to internship conversations across software engineering, full-stack development, AI tooling, and data science."
+      description="Open to Software Engineering and AI Engineering internship conversations across full-stack development, AI tooling, REST APIs, and applied problem solving."
     >
       <div className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
         <Reveal className="rounded-2xl border border-white/10 bg-white/[0.04] p-6 backdrop-blur-xl sm:p-8">

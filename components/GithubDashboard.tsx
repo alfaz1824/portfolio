@@ -10,7 +10,7 @@ const weeks = Array.from({ length: 42 }, (_, index) => {
 });
 
 export function GithubDashboard() {
-  const topLanguages = ["Python", "JavaScript", "TypeScript", "Java", "SQL"];
+  const topLanguages = ["JavaScript", "TypeScript", "Java", "Python", "SQL"];
 
   return (
     <Section
@@ -101,8 +101,8 @@ export function GithubDashboard() {
             <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-6 backdrop-blur-xl">
               <h3 className="text-xl font-semibold text-white">Recent focus</h3>
               <div className="mt-5 flex flex-wrap gap-2">
-                {skillGroups.flatMap((group) => group.skills).slice(0, 15).map((skill) => (
-                  <span key={skill} className="rounded-md bg-white/[0.05] px-2.5 py-1.5 text-xs text-slate-300">
+                {skillGroups.flatMap((group) => group.skills).slice(0, 15).map((skill, index) => (
+                  <span key={`${skill}-${index}`} className="rounded-md bg-white/[0.05] px-2.5 py-1.5 text-xs text-slate-300">
                     {skill}
                   </span>
                 ))}

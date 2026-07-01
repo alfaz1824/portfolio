@@ -1,4 +1,4 @@
-import { ArrowUpRight, BookOpen, Code2 } from "lucide-react";
+import { ArrowUpRight, Code2 } from "lucide-react";
 import { projects } from "@/constants/portfolio";
 import { Reveal } from "@/components/Motion";
 import { Section } from "@/components/Section";
@@ -9,8 +9,8 @@ export function Projects() {
     <Section
       id="projects"
       eyebrow="Featured projects"
-      title="Case-study style projects with problem, architecture, and learning signal."
-      description="Each project is framed the way a recruiter or engineering interviewer actually evaluates work: the problem, the technical decision, and what changed after building it."
+      title="Resume-backed projects across full-stack, AI, and graph systems."
+      description="Each project is framed around the engineering signal behind it: the problem, the implementation decision, and what the build demonstrates."
       className="bg-slate-950/40"
     >
       <div className="grid gap-8">
@@ -53,17 +53,13 @@ export function Projects() {
                 </div>
 
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                  <Button href="https://github.com/alfaz1824" variant="secondary">
+                  <Button href={project.repo} variant="secondary">
                     <Code2 className="size-4" />
-                    GitHub
-                  </Button>
-                  <Button href="#contact" variant="secondary">
-                    <ArrowUpRight className="size-4" />
-                    Live Demo
+                    Repository
                   </Button>
                   <Button href="#contact" variant="ghost">
-                    <BookOpen className="size-4" />
-                    Case Study
+                    <ArrowUpRight className="size-4" />
+                    Discuss Build
                   </Button>
                 </div>
               </div>

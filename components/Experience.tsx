@@ -7,8 +7,8 @@ export function Experience() {
     <Section
       id="experience"
       eyebrow="Experience"
-      title="Internships and competitive builds with real execution pressure."
-      description="A concise track record of Java development, full-stack practice, and hackathon leadership."
+      title="Internships and competitive builds grounded in implementation."
+      description="A concise track record across Java development, full-stack web delivery, Git-based project work, and hackathon execution."
     >
       <div className="relative">
         <div className="absolute left-5 top-0 hidden h-full w-px bg-gradient-to-b from-cyan-300 via-violet-400 to-transparent md:block" />
