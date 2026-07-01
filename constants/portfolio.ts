@@ -21,7 +21,7 @@ export const profile = {
   nickname: "Alfu",
   role: "Full-Stack and AI-Focused Software Engineering Student",
   location: "Bengaluru, India",
-  email: "alfazfarz24@gmail.com",
+  email: "alfazafraz24@gmail.com",
   phone: "+91 8867301768",
   github: "https://github.com/alfaz1824",
   linkedin: "https://linkedin.com/in/alfaz1824",
@@ -30,7 +30,7 @@ export const profile = {
   headline:
     "I build production-minded web applications, REST APIs, AI integrations, and graph-based systems across frontend, backend, and database layers.",
   summary:
-    "Software Engineering student specializing in full-stack and AI-focused development with hands-on work in Python, Java, React, Next.js, TypeScript, FastAPI, Express.js, PostgreSQL, and Supabase. Alfaz has shipped end-to-end projects independently, built REST APIs, modeled relational data, integrated LLM workflows, and won four hackathon awards by turning real-world problems into working products.",
+    "Full Stack and AI-focused Software Engineering student with hands-on experience building production-grade web applications using Python, Java, React, Next.js, and TypeScript. Skilled in designing REST APIs with FastAPI, modeling relational data in PostgreSQL, applying Generative AI, and shipping end-to-end features independently across frontend, backend, and database layers.",
 };
 
 export const navLinks = [
@@ -104,7 +104,7 @@ export const skillGroups = [
   {
     title: "AI",
     icon: BrainCircuit,
-    skills: ["Generative AI", "LLM API Integration", "Prompt Engineering", "AI Workflows"],
+    skills: ["Generative AI", "LLM API Integration", "Prompt Engineering", "NetworkX", "OSMnx", "Pandas", "NumPy"],
   },
   {
     title: "Database",
@@ -114,7 +114,7 @@ export const skillGroups = [
   {
     title: "Data & Graphs",
     icon: TerminalSquare,
-    skills: ["NetworkX", "OSMnx", "Pandas", "NumPy", "Power BI"],
+    skills: ["Graph Algorithms", "Power BI"],
   },
   {
     title: "DevOps & Tools",
@@ -124,7 +124,7 @@ export const skillGroups = [
   {
     title: "Core Strengths",
     icon: Users,
-    skills: ["OOP", "DSA", "Multithreading", "Graph Algorithms"],
+    skills: ["Data Structures & Algorithms", "Object-Oriented Programming", "REST API Design", "DBMS", "Operating Systems"],
   },
 ];
 
@@ -171,23 +171,23 @@ export const projects = [
     subtitle: "AI-powered academic platform for VTU students",
     image: "/images/Profile.png",
     repo: "https://github.com/alfaz1824/vtu-buddy",
-    stack: ["Next.js", "React", "TypeScript", "Supabase", "PostgreSQL"],
+    stack: ["Next.js", "React", "TypeScript", "PostgreSQL", "Supabase"],
     overview:
-      "An academic platform for VTU engineering students that centralizes previous-year papers, study materials, authentication, and AI-assisted resource discovery.",
+      "An AI-powered academic platform for VTU engineering students that centralizes previous-year papers, study materials, authentication, and dynamic resource discovery.",
     problem:
       "Students often prepare from scattered academic resources, making previous-year papers and semester-wise materials slow to discover.",
     solution:
-      "Structured a scalable Next.js App Router codebase with Supabase Auth, resource metadata, and dynamic content retrieval.",
+      "Structured a scalable Next.js App Router codebase with Supabase Auth, PostgreSQL resource metadata, and dynamic content retrieval.",
     architecture:
-      "Next.js and TypeScript frontend with reusable React components, Supabase APIs, PostgreSQL relational tables, and secure session management.",
+      "Next.js and TypeScript frontend with reusable React components, PostgreSQL relational tables on Supabase, backend APIs, and secure session management.",
     features: [
       "Supabase authentication",
-      "Previous-year paper library",
+      "Previous year question paper library",
       "Semester-wise study materials",
       "Responsive React UI",
     ],
     challenges:
-      "Designing a data model that can organize academic resources cleanly while staying fast and easy for students to browse.",
+      "Designing a PostgreSQL data model that can organize academic resources cleanly while staying fast and easy for students to browse.",
     lessons:
       "Useful academic software depends on reliable data structure, clear navigation, and quick retrieval more than visual complexity.",
   },
@@ -198,18 +198,18 @@ export const projects = [
     repo: "https://github.com/alfaz1824/ev_optimiser",
     stack: ["Python", "OSMnx", "NetworkX", "Graph Algorithms", "Folium"],
     overview:
-      "A Python route optimization engine that models real roads as weighted graphs and recommends EV routes with energy-aware pathfinding.",
+      "A Python-based route optimization engine that models real roads as weighted graphs and recommends EV routes with energy-aware pathfinding.",
     problem:
       "Shortest routes are not always the most efficient for EVs when road structure and estimated energy consumption are considered.",
     solution:
-      "Implemented Dijkstra-based routing over OSMnx and NetworkX graphs, balancing travel distance against estimated energy use.",
+      "Implemented shortest-path and energy-aware routing over OSMnx and NetworkX graphs, balancing travel distance against estimated energy consumption.",
     architecture:
-      "OSMnx extracts road networks, NetworkX processes weighted graph paths, and a local cache stores processed map data for repeated queries.",
+      "OSMnx extracts road networks, NetworkX processes weighted graph paths, and a local caching layer stores processed map data for repeated queries.",
     features: [
       "Real-world road network analysis",
       "Energy-aware pathfinding",
       "Dijkstra-based routing",
-      "Local graph caching",
+      "Local map graph caching",
     ],
     challenges:
       "Creating route weights that capture practical EV energy behavior without making the system too slow for repeated use.",
@@ -221,7 +221,7 @@ export const projects = [
     subtitle: "Full-stack AI platform with a decoupled client-server architecture",
     image: "/window.svg",
     repo: "https://github.com/alfaz1824/JeevaSetu-AI",
-    stack: ["JavaScript", "Node.js", "Express.js", "REST APIs", "AI Integration"],
+    stack: ["JavaScript", "Node.js", "Express", "REST APIs", "AI Integration"],
     overview:
       "A full-stack AI-powered platform that separates frontend interaction from backend AI processing for cleaner development and future scaling.",
     problem:
@@ -237,7 +237,7 @@ export const projects = [
       "Scalable module structure",
     ],
     challenges:
-      "Designing the backend boundary so AI processing stays independent while still feeling immediate in the frontend.",
+      "Designing the backend boundary so AI processing stays independent while each layer remains easy to develop, test, and deploy.",
     lessons:
       "A clean API boundary makes AI-powered products easier to test, deploy, and evolve.",
   },
@@ -275,7 +275,7 @@ export const achievements = [
     event: "National Level Hackathon, KNSIT",
     year: "2026",
     detail:
-      "Secured runner-up position at Tech Takshak, a national-level tech fest organized by KNSIT.",
+      "Secured Runner-up position in the Hackathon at Tech Takshak, a national-level tech fest organized by KNSIT.",
   },
   {
     icon: Award,
@@ -283,7 +283,7 @@ export const achievements = [
     event: "Full Stack Face-Off",
     year: "2026",
     detail:
-      "Won Best Project and a Rs. 5,000 cash prize in the Full Stack Face Off web development competition conducted by HKBKCE.",
+      "Won Best Project Award and a cash prize of Rs 5,000 in Full Stack Face Off, a web development competition conducted by HKBKCE.",
   },
   {
     icon: Sparkles,
@@ -296,17 +296,17 @@ export const achievements = [
   {
     icon: Users,
     title: "Best Student with a Vision",
-    event: "Brainovision 24-Hour Hackathon",
+    event: "HKBKCE 24-Hour Web Development Hackathon",
     year: "2024",
     detail:
-      "Built an agri-commerce platform helping farmers sell directly to consumers and target 15-20% better margins.",
+      "Won Best Student with a Vision Award in a 24-hour Web Development Hackathon organized by HKBKCE.",
   },
 ];
 
 export const certifications = [
   "Microsoft Power BI",
-  "Generative AI",
-  "IoT & its Applications",
+  "Gen AI Mastermind by Outskill",
+  "IoT and Its Applications",
   "Advanced Java",
   "Python Libraries for Data Science",
 ];
